@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy · Sola Alarm</title>
+<meta name="description" content="Sola Alarm privacy policy.">
+<link rel="icon" href="../symbol.svg" type="image/svg+xml">
+<style>
+:root { --bg:#080706; --card:#14110e; --text:#ede3d1; --muted:#a89d8c; --sun:#ff9e47; --line:#2a241d; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--text); font:17px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width:720px; margin:0 auto; padding:32px 20px 64px; }
+header { display:flex; align-items:center; justify-content:space-between; gap:16px; margin-bottom:32px; flex-wrap:wrap; }
+header a.brand img { height:56px; display:block; }
+nav a { color:var(--muted); text-decoration:none; margin-left:18px; font-size:15px; }
+nav a:first-child { margin-left:0; }
+nav a:hover, nav a[aria-current] { color:var(--text); }
+h1 { font-size:32px; line-height:1.2; margin:0 0 16px; }
+h2 { font-size:22px; margin:36px 0 8px; }
+h3 { font-size:18px; margin:28px 0 4px; }
+p, li { color:#d9cfbd; }
+a { color:var(--sun); }
+ul { padding-left:22px; }
+.hero { text-align:center; padding:40px 0 8px; }
+.hero img { width:220px; max-width:70%; }
+.hero p { font-size:20px; color:var(--muted); max-width:30em; margin:16px auto; }
+.cards { display:grid; gap:12px; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); margin-top:32px; }
+.cards a { display:block; background:var(--card); border:1px solid var(--line); border-radius:14px; padding:18px; text-decoration:none; color:var(--text); }
+.cards a span { display:block; color:var(--muted); font-size:15px; margin-top:4px; }
+footer { margin-top:56px; padding-top:20px; border-top:1px solid var(--line); color:var(--muted); font-size:14px; }
+</style>
+</head>
+<body>
+<main>
+<header>
+<a class="brand" href="../"><img src="../logo.svg" alt="Sola"></a>
+<nav><a href="../support/">Support</a><a href="../privacy/" aria-current="page">Privacy</a><a href="../terms/">Terms</a></nav>
+</header>
+<h1>Privacy Policy for Sola Alarm</h1>
+<p><strong>Last updated: November 13, 2026</strong></p>
+<p>Sola Alarm ("Sola", "we", "us") is an alarm clock app. This policy explains what the app handles and where it goes. The short version: everything stays on your iPhone. We do not run a server that receives your data, we have no accounts, and we use no advertising, analytics, or tracking SDKs.</p>
+<h2>What Sola stores on your device</h2>
+<ul>
+<li><strong>Alarms</strong>: times, labels, repeat days, missions, sounds, snooze and Early Wake Window settings.</li>
+<li><strong>Preferences</strong>: time format, default sounds, and other app settings.</li>
+<li><strong>Wake history</strong>: when alarms rang, how often you snoozed, and which missions you completed. This powers the charts in the app.</li>
+</ul>
+<p>This data is stored in the app's local storage (including iOS UserDefaults). It is never sent to us. If you use iCloud Backup, Apple may include it in your personal device backup under Apple's own privacy terms.</p>
+<h2>Alarms (AlarmKit and notifications)</h2>
+<p>On iOS 26 and later, Sola schedules alarms with Apple's AlarmKit so they can ring in Silent mode and Focus. On earlier iOS versions it uses local notifications. Alarm content (label, time, sound) is handed to iOS on your device only. Nothing is sent over the network.</p>
+<h2>Camera (optional wake-up check)</h2>
+<p>If you turn on the selfie wake-up check, Sola uses the front camera to take one photo after your mission. The photo is analysed on your device (brightness and face detection with Apple's frameworks) to confirm you are up. It is never saved to your photo library, never uploaded, and is deleted from memory as soon as the check finishes. Sola only asks for camera access when you enable this feature.</p>
+<h2>Motion &amp; Fitness (optional missions)</h2>
+<p>The Shake and Steps missions, and the optional walking wake-up check, use your iPhone's motion sensors (accelerometer and pedometer). Motion readings are processed in real time on your device only to count shakes or steps. They are not stored or shared. Sola only asks for Motion &amp; Fitness access when you choose a mission that needs it.</p>
+<h2>Apple Health (optional)</h2>
+<p>If you allow it, Sola reads your sleep analysis from Apple Health to show how long you slept. Sola only reads sleep data; it never writes to Health. Health data:</p>
+<ul>
+<li>is processed on your device only;</li>
+<li>is never sent to us or to any third party;</li>
+<li>is never used for advertising or data mining;</li>
+<li>can be turned off at any time in Settings › Health › Data Access &amp; Devices › Sola Alarm.</li>
+</ul>
+<h2>Purchases</h2>
+<p>Sola Pro is sold through Apple's App Store. Apple processes your payment; we never see your payment details or Apple ID. The app checks your purchase status with Apple's StoreKit on your device.</p>
+<h2>What we do not do</h2>
+<ul>
+<li>We do not collect, sell, or share personal information.</li>
+<li>We do not track you across apps or websites.</li>
+<li>We do not use advertising, analytics, attribution, or crash-reporting SDKs.</li>
+<li>We do not require an account or sign-in.</li>
+</ul>
+<h2>Your choices</h2>
+<ul>
+<li>Change camera, motion, Health, alarm, and notification permissions in the iOS Settings app at any time.</li>
+<li>Delete the app to remove all data it stored on your device.</li>
+</ul>
+<h2>Children</h2>
+<p>Sola is not directed to children under 13, and we do not knowingly collect personal information from anyone.</p>
+<h2>Changes</h2>
+<p>If this policy changes, we will update the date above and publish the new version in the app and at kod1ak30.github.io/sola-alarm/privacy.</p>
+<h2>Contact</h2>
+<p>Questions about privacy: <strong><a href="mailto:solaalarm.help@gmail.com">solaalarm.help@gmail.com</a></strong></p>
+<footer>Sola Alarm · <a href="mailto:solaalarm.help@gmail.com">solaalarm.help@gmail.com</a></footer>
+</main>
+</body>
+</html>

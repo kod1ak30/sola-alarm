@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sola Alarm</title>
+<meta name="description" content="Sola Alarm: the alarm clock that gets you up.">
+<link rel="icon" href="./symbol.svg" type="image/svg+xml">
+<style>
+:root { --bg:#080706; --card:#14110e; --text:#ede3d1; --muted:#a89d8c; --sun:#ff9e47; --line:#2a241d; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--text); font:17px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width:720px; margin:0 auto; padding:32px 20px 64px; }
+header { display:flex; align-items:center; justify-content:space-between; gap:16px; margin-bottom:32px; flex-wrap:wrap; }
+header a.brand img { height:56px; display:block; }
+nav a { color:var(--muted); text-decoration:none; margin-left:18px; font-size:15px; }
+nav a:first-child { margin-left:0; }
+nav a:hover, nav a[aria-current] { color:var(--text); }
+h1 { font-size:32px; line-height:1.2; margin:0 0 16px; }
+h2 { font-size:22px; margin:36px 0 8px; }
+h3 { font-size:18px; margin:28px 0 4px; }
+p, li { color:#d9cfbd; }
+a { color:var(--sun); }
+ul { padding-left:22px; }
+.hero { text-align:center; padding:40px 0 8px; }
+.hero img { width:220px; max-width:70%; }
+.hero p { font-size:20px; color:var(--muted); max-width:30em; margin:16px auto; }
+.cards { display:grid; gap:12px; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); margin-top:32px; }
+.cards a { display:block; background:var(--card); border:1px solid var(--line); border-radius:14px; padding:18px; text-decoration:none; color:var(--text); }
+.cards a span { display:block; color:var(--muted); font-size:15px; margin-top:4px; }
+footer { margin-top:56px; padding-top:20px; border-top:1px solid var(--line); color:var(--muted); font-size:14px; }
+</style>
+</head>
+<body>
+<main>
+<header>
+<a class="brand" href="./"><img src="./logo.svg" alt="Sola"></a>
+<nav><a href="./support/">Support</a><a href="./privacy/">Privacy</a><a href="./terms/">Terms</a></nav>
+</header>
+<section class="hero">
+<img src="./logo.svg" alt="Sola">
+<p>The alarm clock that gets you up. Pick a wake-up mission and Sola keeps ringing until it's done.</p>
+</section>
+<div class="cards">
+<a href="./support/">Support<span>Help with alarms, missions and Sola Pro</span></a>
+<a href="./privacy/">Privacy Policy<span>No account, no ads, no tracking</span></a>
+<a href="./terms/">Terms of Use<span>The rules for using Sola</span></a>
+</div>
+<footer>Sola Alarm · <a href="mailto:solaalarm.help@gmail.com">solaalarm.help@gmail.com</a></footer>
+</main>
+</body>
+</html>
